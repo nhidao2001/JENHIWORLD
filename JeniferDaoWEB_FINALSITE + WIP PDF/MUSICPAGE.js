@@ -1,0 +1,1 @@
+// JavaScript Documentconst menu = document.querySelector('#m_mobile-menu')const menuLinks = document.querySelector ('.m_navbar-menu')menu.addEventListener('click', function() {    menu.classList.toggle('is-active')    menuLinks.classList.toggle('active')});
